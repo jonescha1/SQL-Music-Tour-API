@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
 
       // Event
       Meet_Greet.belongsTo(Event, {
-        foreignKey: "band_id",
+        foreignKey: "event_id",
         as: "event",
       });
     }
